@@ -1,0 +1,21 @@
+{
+    "name": "tphp/apcu-static",
+    "description": "TPHP Framework Static Files",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "TPHP",
+            "email": "336296@qq.com"
+        }
+    ],
+
+    "type": "tao-extension",
+    "extra": {
+        "installer-disable": true,
+        "installer-name": "public/static/tphp"
+    },
+    "require": {
+        "composer/installers": "~1.0"
+    }
+}
+

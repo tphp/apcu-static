@@ -1,0 +1,106 @@
+body, html {
+    height: 100%;
+    -webkit-tap-highlight-color: transparent;
+    line-height: 14px;
+}
+.demos-title {
+    text-align: center;
+    font-size: 34px;
+    color: #3cc51f;
+    font-weight: 400;
+    margin: 0 15%;
+}
+
+.demos-sub-title {
+    text-align: center;
+    color: #888;
+    font-size: 14px;
+}
+
+.demos-header {
+    padding: 35px 0;
+}
+
+.demos-content-padded {
+    padding: 15px;
+}
+
+.demos-second-title {
+    text-align: center;
+    font-size: 24px;
+    color: #3cc51f;
+    font-weight: 400;
+    margin: 0 15%;
+}
+
+footer {
+    text-align: center;
+    font-size: 14px;
+    padding: 20px;
+}
+
+footer a {
+    color: #999;
+    text-decoration: none;
+}
+.weui-cells{
+    margin-top: 0px;
+}
+
+.bg_header{
+    background-color: #4a77af;
+    /*background-image:*/
+            /*-webkit-radial-gradient(rgba(0, 0, 0, 0.2) 0.1%, transparent 10%),*/
+            /*-webkit-radial-gradient(rgba(0, 0, 0, 0.2) 0.1%, transparent 10%),*/
+            /*-webkit-radial-gradient(rgba(255, 255, 255, 0.1) 10%, transparent 10%),*/
+            /*-webkit-radial-gradient(rgba(255, 255, 255, 0.1) 10%, transparent 10%);*/
+    /*background-image:*/
+            /*radial-gradient(rgba(0, 0, 0, 0.2) 0.1%, transparent 10%),*/
+            /*radial-gradient(rgba(0, 0, 0, 0.2) 0.1%, transparent 10%),*/
+            /*radial-gradient(rgba(255, 255, 255, 0.1) 10%, transparent 10%),*/
+            /*radial-gradient(rgba(255, 255, 255, 0.1) 10%, transparent 10%);*/
+    /*background-position: 0 0px, 8px 8px, 0 1px, 8px 9px;*/
+    /*background-size: 16px 16px;*/
+}
+
+.header{
+    padding: 10px;
+    border-bottom: 1px #aaa solid;
+    color:#FFF;
+    cursor: pointer;
+}
+
+.pad_td_0{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.pad_lr_0{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.mar0{
+    margin: 0px !important;
+}
+
+.weui-tabbar_header{
+    bottom: auto;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+}
+.weui-tabbar_header .in{
+    margin: 10px;
+    line-height: 12px;
+}
+
+.header_btn_right{
+    float: right;
+}
+
+.weui-dialog__hd{
+    max-height: 300px;
+    overflow-x: hidden;
+    word-break: break-word;
+}

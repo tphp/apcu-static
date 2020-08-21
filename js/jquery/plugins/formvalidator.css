@@ -1,0 +1,10 @@
+@CHARSET "UTF-8";
+/*表单验证*/
+.onShow,.onFocus,.onError,.onCorrect,.onLoad,.onTime{display:inline-block;display:-moz-inline-stack;zoom:1;*display:inline; vertical-align:middle;background:url(../images/msg_bg.png) no-repeat;	color:#444;line-height:18px;padding:2px 10px 2px 23px; margin-left:10px;_margin-left:5px}
+.onShow{background:none;color:#999;padding:2px 10px 2px 2px;}
+.onFocus{background-position:3px -147px;color:#999;}
+.onLoad{background-position:3px -47px;color:#999;}
+.onError{background-position:3px -47px;color:#FF89A7;}
+.onCorrect{background-position:3px -245px;color:#FF89A7; height: 22px;padding: 2px 10px 2px 23px; vertical-align: middle; display: -moz-inline-stack;}
+.onLamp{background-position:3px -200px}
+.onTime{background-position:3px -1356px}

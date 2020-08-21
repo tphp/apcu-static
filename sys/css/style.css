@@ -1,0 +1,660 @@
+body{
+    margin: 0px;
+}
+
+.clear{
+    clear: both;
+}
+
+.green-color{
+    color: #080;
+}
+
+.red-color{
+    color: #F33;
+}
+
+.tox-tinymce{
+    border-radius: 5px !important;
+}
+.tox-tinymce-aux{
+    z-index: 2100 !important;
+}
+.el-loading-mask.is-fullscreen{
+    z-index: 9999 !important;
+}
+.el-message-box__wrapper{
+    z-index: 9000 !important;
+}
+
+.el-message-box,
+.el-message{
+    width: auto;
+    min-width: 200px;
+    max-width: calc(100vw - 100px)
+}
+.el-message-box__btns button {
+    float: right;
+    margin-left: 10px;
+}
+
+.el-form-item--small .el-form-item__label{
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    padding-left: 10px;
+}
+
+.el-dialog{
+    margin-top: 10vh !important;
+    margin-bottom: 10vh !important;
+    max-height: 80vh;
+}
+.el-dialog .el-dialog__body{
+    padding: 0px;
+    max-height: calc(80vh - 110px);
+    overflow-y: auto;
+}
+
+.el-input__prefix{
+    left: auto;
+    right: 5px;
+}
+.el-input--prefix .el-input__inner{
+    padding-left: 10px;
+}
+.el-input__suffix{
+    background-color: #FFF;
+    height: calc(100% - 4px);
+    margin-top: 2px;
+}
+#app_search .el-checkbox,
+#app_search .el-radio,
+#app_list_edit .el-checkbox,
+.css_app_list_edit .el-radio{
+    margin-right: 15px;
+    line-height: 32px;
+}
+
+.el-table .cell pre{
+    margin: 0px;
+    word-break: break-all;
+    white-space: pre-wrap;
+}
+.el-table textarea{
+    position: absolute;
+    width: calc(100% - 20px);
+    height: calc(100% - 16px);
+    left: 0;
+    top: 0;
+    border: none;
+    outline: none;
+    resize: none;
+    line-height: 23px;
+    padding: 8px 10px;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 12px;
+}
+
+.el-table .is-center textarea,
+.el-table .is-center input{
+    text-align: center;
+}
+
+.el-table .is-right textarea,
+.el-table .is-right input{
+    text-align: right;
+}
+
+.css_group_checkbox .check_all{
+    position: absolute;
+}
+.css_group_checkbox .first{
+    display: inline-block;
+    height: 10px;
+    width: 70px;
+}
+.subtitle{
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #F8F8F8;
+    color: #999;
+}
+
+.tooltip_more{
+    position: absolute;
+    width: 100px;
+    z-index: 99;
+    height: 30px;
+    margin-left: -115px;
+    cursor: pointer;
+}
+
+.css_number_input .el-form-item__label{
+    color: #45b984;
+}
+
+.el-table__header-wrapper .edit .cell,
+.el-table__fixed-header-wrapper .edit .cell{
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+
+.el-table__header-wrapper .edit .cell .el-tooltip,
+.el-table__fixed-header-wrapper .edit .cell .el-tooltip{
+    cursor: pointer;
+}
+
+.el-table__body .edit{
+    cursor: text;
+}
+
+.el-table__body .el-date-editor {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.el-table__body .el-date-editor input{
+    height: 100%;
+    font-size: 12px;
+    border: none;
+    border-radius: unset;
+}
+
+.el-table__header-wrapper .edit .cell:before,
+.el-table__fixed-header-wrapper .edit .cell:before{
+    font-family: element-icons;
+    content: "\e78c";
+    color: #F88;
+    padding-right: 8px;
+    font-size: 12px;
+}
+
+.css_list_input_time{
+    width: 100%;
+    margin: 0px -8px;
+}
+.css_list_input_time .mx-input-wrapper input:before,
+.css_list_input_time .mx-input-wrapper input:hover,
+.css_list_input_time .mx-input-wrapper input:focus{
+    border-color: #EEE !important;
+    box-shadow: none !important;
+}
+
+.css_list_input_time_align_center .mx-input-wrapper input{
+    text-align: center;
+}
+
+.css_list_input_time_align_right .mx-input-wrapper input{
+    text-align: right;
+}
+
+.css_list_input_time_align_right .mx-input-wrapper>i{
+    right: auto;
+    left: 8px;
+}
+.el-switch__label--right{
+    line-height: 24px;
+}
+.el-date-editor.el-input, .el-date-editor.el-input__inner{
+    width: 100% !important;
+}
+.el-input.is-disabled .el-input__icon{
+    background-color: #F8F8F8;
+}
+.css_list_select>a.el-link,
+.css_link_select>a.el-link{
+    position: absolute;
+    top: 0;
+    margin-top: 7px;
+    background-color: #FFF;
+    height: 20px;
+}
+.css_list_select>a.el-link{
+    left: 0;
+    margin-left: 10px;
+    width: calc(100% - 40px);
+}
+.css_link_select>a.el-link{
+    margin-left: -210px;
+    width: 180px;
+}
+.css_list_select>a.el-link>.el-link--inner,
+.css_link_select>a.el-link>.el-link--inner{
+    position: absolute;
+    left: 0;
+}
+
+.css_link_select{
+    margin-bottom: -20px;
+}
+.css_link_select .el-select{
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 200px !important;
+}
+
+.css_link_select_disable{
+    background-color: #F5F7FA !important;
+}
+
+/**************************************搜索**************************************/
+#app_search{
+    margin: 10px;
+    padding-top: 10px;
+}
+
+#app_search .css_link_select{
+    margin-bottom: -10px;
+}
+#app_search .css_link_select .el-select{
+    margin-bottom: 10px;
+}
+
+#app_search .el-form-item{
+    width: 33.33%;
+}
+#app_search .el-form-item--small.el-form-item{
+    margin-bottom: 10px;
+    /*width: 360px;*/
+}
+#app_search .el-select{
+    width: 100%;
+}
+#app_search .css_search_group_2 .el-form-item,
+#app_search .css_search_group_3 .el-form-item{
+    float: left;
+}
+#app_search .btn_show{
+    margin: 0px -10px;
+}
+#app_search .btn_show button{
+    position: absolute;
+    z-index: 100;
+    margin-left: -42px;
+}
+#app_search .btn_show_bottom{
+    border-top: 1px #EEE solid;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+#app_search .search_trans{
+    overflow-y: hidden;
+}
+
+.search-enter-active,
+.search-leave-active {
+    transition: all .3s ease-in-out;
+    height: 40px;
+    overflow: hidden;
+    padding-bottom: 0 !important;
+}
+
+.search-enter,
+.search-leave-to{
+    opacity: 0;
+    height: 0;
+}
+
+.search_group-enter-active,
+.search_group-leave-active {
+    transition: all .3s ease-in-out;
+    height: 32px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    padding-bottom: 0 !important;
+}
+
+.search_group-enter,
+.search_group-leave-to{
+    opacity: 0;
+    height: 0;
+    margin-bottom: 0;
+}
+
+.el-textarea.is-disabled .el-textarea__inner,
+.el-input.is-disabled .el-input__inner{
+    color: #666;
+}
+
+/**************************************列表**************************************/
+.css_list_batch{
+    position: relative;
+    z-index: 99;
+    margin-top: -2px;
+    margin-bottom: -32px;
+    width: 161px;
+}
+.css_list_batch>label{
+    padding: 5px 0px;
+}
+
+.css_list_batch_floor{
+    margin-top: 10px;
+    margin-bottom: -34px;
+    width: 170px;
+}
+
+.css_app_list{
+    margin-top: 15px;
+    padding-bottom: 10px;
+}
+.css_app_list .el-pagination{
+    float: right;
+}
+
+.css_app_list .el-table{
+    margin-top: 10px;
+}
+
+.error_msg,
+.delete_msg{
+    word-break: break-word;
+    color: #666;
+}
+.error_msg pre,
+.delete_msg pre{
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.text-hover-red:hover{
+    color: red !important;
+}
+.css_app_list{
+    margin: 15px 10px 0px 10px;
+}
+#app_search,
+.css_app_list{
+    min-width: 1080px;
+}
+
+.css_app_list .el-dialog{
+    width: calc(100vw - 100px) !important;
+    max-width: 1200px;
+}
+
+.css_app_list .el-image>img{
+    max-width: 100px;
+}
+
+.css_app_list .el-divider__text, .el-link{
+    font-size: 12px !important;
+}
+
+/**************************************列表编辑**************************************/
+.css_app_list_edit .row{
+    clear: both;
+}
+.css_app_list_edit .row>div{
+    float: left;
+}
+.css_app_list_edit .row .textarea textarea{
+    min-height: 90px !important;
+    max-height: 300px !important;
+}
+.css_app_list_edit .row textarea.editor{
+    min-height: 300px !important;
+}
+.css_app_list_edit .tox-tinymce{
+    min-height: 150px;
+}
+.css_app_list_edit .row .el-form-item{
+    float: left;
+}
+
+.css_app_list_edit .el-divider{
+    padding: 0px;
+    margin: 20px 0px 25px;
+}
+
+.css_app_list_edit .el-divider .el-divider__text{
+    color: #409eff;
+}
+
+#app_list_edit .el-form{
+    margin: 20px 0px;
+}
+
+.css_list_edit_row>div{
+    padding-right: 30px;
+}
+.css_list_edit_row .el-select{
+    width: 100%;
+}
+
+.css_list_edit_cell_1,
+.css_list_edit_cell_2{
+    min-width: 600px;
+}
+
+.css_list_edit_row_1 .row_1>div{
+    width: 100%;
+}
+
+.css_list_edit_row_2 .row_2>div{
+    width: 50%;
+}
+.css_list_edit_row_2 .row_1>div{
+    width: 100%;
+}
+
+.css_list_edit_cell_3{
+    min-width: 900px;
+}
+.css_list_edit_row_3 .row_3>div{
+    width: 33.33%;
+}
+.css_list_edit_row_3 .row_1>div{
+    width: 100%;
+}
+
+.css_list_edit_upload .el-input-group__append,
+.css_list_edit_upload .el-input-group__prepend{
+    font-size: 16px;
+    padding: 0px 15px;
+    color: #CCC;
+    overflow: hidden;
+}
+.css_list_edit_upload .el-input-group__prepend .el-image{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    margin-left: 0px;
+}
+.css_list_edit_upload .el-input-group__prepend .el-image .image-slot{
+    margin: 6px 7px;
+}
+.css_list_edit_upload .el-input-group__prepend .el-image img.el-image__inner{
+    width: 32px;
+    height: 30px;
+    opacity: 0.5;
+}
+.css_list_edit_upload .el-input-group__prepend .el-image img.el-image__inner:hover{
+    opacity: 1;
+}
+.css_list_edit_upload .el-input-group__append:hover,
+.css_list_edit_upload .el-input-group__prepend:hover{
+    color: #666;
+}
+
+/**************************************详情编辑**************************************/
+.css_more_button{
+    border-bottom: 1px #EEE solid;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    background-color: #FFF;
+    height: 55px;
+}
+
+.css_more_button .left{
+    padding: 10px 20px;
+    position: absolute;
+    color: #409eff;
+}
+
+.css_more_button .left .el-form-item__content{
+    cursor: pointer;
+}
+
+.css_more_button .right{
+    padding: 10px;
+}
+
+.css_more_button .right .el-form-item__content{
+    float: right;
+}
+
+.css_more_button_nav{
+    width: 100%;
+    height: 55px;
+    display: none;
+}
+
+.edit_more-enter-active,
+.edit_more-leave-active {
+    max-height: 100vh;
+    transition: all .3s ease-in-out;
+    overflow: hidden;
+    padding-bottom: 0 !important;
+}
+
+.edit_more-enter,
+.edit_more-leave-to{
+    max-height: 0px;
+    opacity: 0;
+    height: 0;
+}
+
+.css_more_body{
+    display: none;
+    height: calc(100vh - 55px);
+    overflow: auto;
+}
+
+.css_more_body .css_app_list{
+    margin: -10px 10px 0px 10px;
+}
+
+.css_more_list{
+    margin: 10px;
+}
+
+
+/**************************************菜单**************************************/
+.el-menu{
+    border: none;
+}
+.app_body_left{
+    width: 199px;
+    float: left;
+    height: calc(100vh - 45px);
+    position: fixed;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #F8F8F8;
+    border-right: 1px #DDD solid;
+}
+.app_body_right{
+    width: calc(100% - 200px);
+    overflow: auto;
+    float: right;
+    height: calc(100vh - 45px);
+}
+
+.app_body_right .error,
+.ext_error{
+    margin-left: 10px;
+    margin-top: 5px;
+    color: #F33;
+}
+
+.app_body_top{
+    background-color: #079;
+    height: 45px;
+    filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#079', endColorStr='#09C', gradientType='1');
+    -ms-filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#079', endColorStr='#09C', gradientType='1');
+    background: -webkit-linear-gradient(left bottom, #079, #09C);
+    background: -moz-linear-gradient(left bottom, #079, #09C);
+    background: -o-linear-gradient(left bottom, #079, #09C);
+    background-size: cover
+}
+
+.app_body_top .left{
+    height: calc(100% - 1px);
+    width: 200px;
+    float: left;
+    color: #FFF;
+    text-align: center;
+    line-height: 45px;
+}
+
+.app_body_top .right{
+    height: calc(100% - 1px);
+    width: calc(100% - 200px);
+    float: right;
+    line-height: 40px;
+}
+
+.app_body_top .right .title,
+.app_body_top .right .oper{
+    width: auto;
+    display: inline;
+}
+.app_body_top .right .title{
+    float: left;
+    color: #FFF;
+    margin-left: 10px;
+    font-size: 14px;
+    line-height: 45px;
+}
+.app_body_top .right .oper{
+    float: right;
+    margin-right: 10px;
+}
+.app_body_top .right .oper .user{
+    float: left;
+}
+.app_body_top .right .oper .user span{
+    color: #FFF;
+    margin-right: 10px;
+    line-height: 18px;
+}
+.app_body_top .right .oper .exit{
+    float: right;
+}
+.app_body_top .right .oper .exit span .in{
+    color: #FCC;
+    font-size: 20px;
+}
+.app_body_top .right .oper .exit span .in:hover{
+    color: #F88;
+}
+
+/**************************************流程页面**************************************/
+.el-tabs .el-badge__content{
+    top: 10px;
+    right: 0px;
+}
+
+.css_app_flow{
+    margin-top: 5px;
+}
+
+.css_flow_batch{
+    width: 185px;
+}
+
+.css_flow_batch .new{
+    display: inline;
+    margin-right: 10px;
+}

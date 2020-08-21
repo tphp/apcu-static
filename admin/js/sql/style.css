@@ -1,0 +1,370 @@
+.js_from_top{
+    padding: 10px;
+    background-color: #FFFFFF;
+}
+
+.js_from_top .layui-input-inline{
+    margin-right: 0px !important;
+}
+
+.js_from_top .layui-form-item{
+    margin: 0px;
+}
+
+.js_from_top .layui-form-label{
+    padding: 9px 10px;
+    width: auto;
+}
+
+#sqlcode, #sqlcode_view{
+    overflow: hidden;
+    border: 1px #CCC solid;
+    left: 0;
+    right: 0;
+    height: 320px;
+    font-size: 16px;
+    line-height: 16px;
+    border-left: 0px;
+    border-right: 0px;
+    z-index: 100;
+}
+#sqlcode_view{
+    height: 100%;
+    border: 0px;
+}
+
+.js_sql_oper{
+    clear:both;
+}
+
+.js_field, .js_run{
+    float: left;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.js_field .title, .js_run .title{
+    padding: 5px 10px;
+    border-bottom: 1px #CCC solid;
+    background-color: #F8F8F8;
+}
+
+.js_field{
+    border-right: 1px #CCC solid;
+    border-bottom: 1px #CCC solid;
+    width: 240px;
+    background-color: #F8F8F8;
+}
+
+.js_run{
+    background-color: #FFFFFF;
+    border-bottom: 1px #CCC solid;
+}
+
+.js_set_field_html,
+.js_set_all_field_html{
+    margin: 10px 25px 0px 10px;
+}
+
+.js_field_list, .js_run_list{
+    overflow-y:scroll;
+}
+
+.js_field_list{
+    font-size: 12px;
+    color:#333;
+}
+
+.js_field_list>div{
+    clear: both;
+    border-bottom: 1px #DDD dashed;
+    height: 28px;
+    padding: 0px 5px;
+}
+
+.js_field_list span{
+    padding: 5px;
+    float: left;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+}
+
+.js_field_list span.fname{
+    width: 95px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.js_field_list span.edit, .js_field_list span.del, .js_field_list span.fa{
+    cursor: pointer;
+}
+.js_field_list span.fa{
+    line-height: 18px;
+    padding: 5px 8px;
+}
+.fa-long-arrow-down{
+    padding-right: 0px !important;
+}
+.js_field_list span.edit:hover, .js_field_list span.del:hover, .js_field_list span.fa:hover{
+    color:#080;
+}
+
+.layui-layer-btn{
+    border-top: 1px #EEE solid;
+}
+
+.HeadersRow{
+    width:1px;
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+}
+
+#gotop {
+    width: 35px;
+    height: 30px;
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    border-radius: 10px 10px 10px 10px;
+    text-decoration: none;
+    display: none;
+    background-color: #929292;
+}
+
+#gotop span {
+    display: block;
+    width: 35px;
+    color: #fefefe;
+}
+
+#gotop span:hover {
+    color: #f1f1f1;
+}
+
+#gotop span {
+    font-size: 20px;
+    text-align: center;
+}
+
+.collapsible{
+    font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+}
+
+
+
+
+
+
+
+
+div.Canvas {
+    font-family: Lucida Console, Georgia;
+    font-size: 13px;
+    color: #000000;
+    margin-top: 0px;
+}
+
+.ObjectBrace {
+    color: #00AA00;
+    font-weight: bold;
+}
+
+.ArrayBrace {
+    color: #0033FF;
+    font-weight: bold;
+}
+
+.PropertyName {
+    color: #CC0000;
+    font-weight: bold;
+}
+
+.String {
+    color: #007777;
+}
+
+.Number {
+    color: #AA00AA;
+}
+
+.Boolean {
+    color: #0000FF;
+}
+
+.Function {
+    color: #AA6633;
+    text-decoration: italic;
+}
+
+.Null {
+    color: #0000FF;
+}
+
+.Comma {
+    color: #000000;
+    font-weight: bold;
+}
+
+PRE.CodeContainer {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    padding: 10px 15px;
+    background-color: inherit;
+}
+
+PRE.CodeContainer img {
+    cursor: pointer;
+    border: none;
+    margin-bottom: -1px;
+}
+
+#CollapsibleViewDetail a {
+    padding-left: 10px;
+}
+
+#ControlsRow a {
+    text-decoration: none;
+    color: #00a65a;
+}
+
+#ControlsRow a:hover,
+#ControlsRow a:focus {
+    text-decoration: none;
+    color: rgba(0, 166, 90, 0.77);
+}
+
+#ControlsRow {
+    white-space: nowrap;
+    font-size: 11px;
+}
+
+#ControlsRow,
+#ControlsRow label,
+#ControlsRow a {
+    line-height: 18px;
+    vertical-align: middle;
+}
+
+#ControlsRow input {
+    vertical-align: middle;
+}
+
+#TabSizeHolder {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#HeaderTitle {
+    text-align: right;
+    font-size: 11px;
+}
+
+#HeaderSubTitle {
+    margin-bottom: 2px;
+    margin-top: 0px
+}
+
+#RawJson, #RawView {
+    width: 99%;
+    height: 120px;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    resize: none;
+}
+
+A.OtherToolsLink {
+    color: #555;
+    text-decoration: none;
+}
+
+A.OtherToolsLink:hover {
+    text-decoration: underline;
+}
+
+
+.button {
+    display: inline-block;
+    zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
+    *display: inline;
+    vertical-align: baseline;
+    margin: 0 2px;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font: 14px/100% Arial, Helvetica, sans-serif;
+    padding: .5em 2em .55em;
+    -webkit-border-radius: .5em;
+    -moz-border-radius: .5em;
+    border-radius: .5em;
+}
+.button:hover {
+    text-decoration: none;
+}
+.button:active {
+    position: relative;
+    top: 1px;
+}
+
+/* white */
+.white {
+    color: #606060;
+    border: solid 1px #b7b7b7;
+    background: #fff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ededed));
+    background: -moz-linear-gradient(top,  #fff,  #ededed);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed');
+}
+.white:hover {
+    background: #ededed;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#dcdcdc));
+    background: -moz-linear-gradient(top,  #fff,  #dcdcdc);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#dcdcdc');
+}
+.white:active {
+    color: #999;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#fff));
+    background: -moz-linear-gradient(top,  #ededed,  #fff);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#ffffff');
+}
+
+.medium {
+    font-size: 12px;
+    padding: .4em 1.5em .42em;
+}
+.small {
+    font-size: 11px;
+    padding: .2em 1em .275em;
+}
+
+.js_control{
+    position: absolute;
+    right: 0;
+    padding: 8px;
+    background-color: #F8F8F8;
+    height: 16px;
+    margin-top: -6px;
+    border-left: 1px #CCC solid;
+    border-top: 1px #CCC solid;
+    z-index: 100;
+}
+
+.js_control i{
+    font-size: 16px;
+    color:#999;
+    padding: 0px 5px;
+    cursor: pointer;
+    vertical-align: top;
+}
+.js_control i.fa-circle-o{
+    vertical-align: bottom;
+    margin-top: 1px;
+}
+
+.js_control i:hover{
+    color:#333;
+}

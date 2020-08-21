@@ -1,0 +1,54 @@
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px white inset !important;
+}
+.layui-form-label {
+    padding: 9px 15px 9px 10px;
+    width: 85px;
+}
+.ace_editor{
+    line-height: 16px;
+    font-size: 16px;
+}
+.ace_editor.ace_autocomplete{
+    z-index: 99999999;
+}
+
+@media (max-height: 800px){
+    .layui-form-select dl{
+        max-height: 250px;
+    }
+}
+
+@media (max-height: 600px){
+    .layui-form-select dl{
+        max-height: 200px;
+    }
+}
+
+@media (max-height: 400px){
+    .layui-form-select dl{
+        max-height: 150px;
+    }
+}
+.layui-form-radio{
+    margin: 4px 10px 0 0;
+}
+.layui-form-select dl{
+    width: 100%;
+}
+.layui-select-option-first dl.layui-anim dd.layui-this:first-child,
+.layui-btn-primary,
+.layui-laydate .layui-this{
+    background-color:#FFF !important;
+}
+.layui-tab-title li{
+    min-width: auto;
+}
+.css_textarea_copy{
+    opacity: 0;
+    font-size: 1px;
+    height: 1px;
+    width: 1px;
+    position: absolute;
+    left: -10px;
+}
