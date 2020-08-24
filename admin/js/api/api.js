@@ -78,7 +78,21 @@ $(function () {
         resize();
     }
 
-    move_top_down(0);
+    var tout;
+    var tsep = 50;
+    var tnow = 0;
+    function get_body_height(){
+        clearTimeout(tout);
+        if(body.height() <= 0 && tnow < 3000){
+            tnow += tsep;
+            tout = setTimeout(function () {
+                get_body_height();
+            }, tsep);
+        }else{
+            move_top_down(0);
+        }
+    }
+    get_body_height();
 
     layui.use(['element'], function(){
         resize();
